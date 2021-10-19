@@ -1,21 +1,26 @@
 {
     "name": "SmartBlinds",
-    "docs": "https://github.com/therealmysteryman/udi-MySmartBlinds-nodeserver/blob/master/README.md",
+    "docs": "https://github.com/UniversalDevicesInc-PG3/udi-MySmartBlinds-nodeserver/blob/master/README.md",
     "type": "python3",
     "executable": "blinds_poly.py",
     "install": "install.sh",
     "shortPoll": "90",
     "longPoll": "600",
     "description": "Connect SmartBlinds to the ISY994.",
-    "notice": "https://github.com/therealmysteryman/udi-MySmartBlinds-nodeserver/blob/master/LICENSE",
+    "notice": "https://github.com/UniversalDevicesInc-PG3/udi-MySmartBlinds-nodeserver/blob/master/LICENSE",
+	"logLevel": "INFO",
+	"customParams": {
+		"email": "",
+		"password": ""
+	},
     "credits": [
         {
-            "title": "SmartBlinds: A Polyglot v2 interface to SmartBlinds",
+            "title": "SmartBlinds: A Polyglot v3 interface to SmartBlinds",
             "author": "AutomationGeek",
-            "version": "2.0.9",
-            "date": "January 31, 2021",
-            "source": "https://github.com/therealmysteryman/udi-MySmartBlinds-nodeserver",
-            "license": "https://github.com/therealmysteryman/udi-MySmartBlinds-nodeserver/blob/master/README.md"
+            "version": "3.0.0",
+            "date": "October 19, 2021",
+            "source": "https://github.com/UniversalDevicesInc-PG3/udi-MySmartBlinds-nodeserver",
+            "license": "https://github.com/UniversalDevicesInc-PG3/udi-MySmartBlinds-nodeserver/blob/master/README.md"
         },
 	{
             "title": "udi-poly-template-python: A Polyglot v2 Poly template",
@@ -33,5 +38,14 @@
             "source": "https://github.com/ianlevesque/smartblinds-client",
             "license": "https://github.com/ianlevesque/smartblinds-client/blob/main/LICENSE"
         }
-    ]
+    ],
+    "store": {
+        "developer": "bpaauwe@bobsplace.com",
+        "purchaseOptions": [
+            {
+                "isPerpetual": true,
+                "price": 0
+            }
+        ]
+    }
 }
