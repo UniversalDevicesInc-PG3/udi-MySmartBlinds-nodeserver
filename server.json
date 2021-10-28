@@ -16,7 +16,7 @@
     "credits": [
         {
             "title": "SmartBlinds: A Polyglot v3 interface to SmartBlinds",
-            "author": "AutomationGeek",
+            "author": "Jean-Francois Tremblay (AutomationGeek)",
             "version": "3.0.0",
             "date": "October 19, 2021",
             "source": "https://github.com/UniversalDevicesInc-PG3/udi-MySmartBlinds-nodeserver",
@@ -40,7 +40,7 @@
         }
     ],
     "store": {
-        "developer": "bpaauwe@bobsplace.com",
+        "developer": "jf.tremblay@gmail.com",
         "purchaseOptions": [
             {
                 "isPerpetual": true,
